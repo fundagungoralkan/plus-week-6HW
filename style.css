@@ -30,10 +30,13 @@ li {
 
 .weather-app {
     border: 1px solid #dadde1;
-    padding: 15px;
-    margin: 20px auto;
+    height: 400px;
     border-radius: 10px;
-    max-width: 600px;
+    margin: 20px 0;
+    max-width: 630px;
+    padding: 20px 16px 24px 16px;
+
+
 }
 
 .temperature {
@@ -60,4 +63,39 @@ li {
 
 .search-form {
     margin-bottom: 20px;
+}
+
+.day-block {
+    float: left;
+    padding: 7px;
+    width: 12.5%;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212529;
+    text-align: left;
+    padding: 15px;
+    width: 50px;
+    float: left;
+    text-align: left;
+    margin: 0 15px 0 15px;
+}
+
+.day-clearfix {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+
+}
+
+.day__block-temps {
+    text-align: center;
+    display: block;
+    margin: 0 10px 0 10px;
+
+
 }
